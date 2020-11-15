@@ -1,0 +1,23 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+nav,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    height: 8vh;
+}
+
+footer {
+    height: 10vh;
+}
