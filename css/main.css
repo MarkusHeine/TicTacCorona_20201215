@@ -2,7 +2,6 @@ body {
     box-sizing: border-box;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: "Roboto";
     font-weight: 100;
 }
@@ -20,4 +19,63 @@ nav {
 
 footer {
     height: 10vh;
+}
+
+main {
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-wrapper {
+    width: 600px;
+    height: 600px;
+    display: flex;
+}
+
+.game-column {
+    height: inherit;
+    width: inherit;
+}
+
+.field {
+    height: 33%;
+    width: 100%;
+}
+
+#f0 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#f1 {
+    border-right: 1px solid black;
+}
+
+#f2 {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#f3 {
+    border-bottom: 1px solid black;
+}
+
+#f5 {
+    border-top: 1px solid black;
+}
+
+#f6 {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#f7 {
+    border-left: 1px solid black;
+}
+
+#f8 {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
 }
